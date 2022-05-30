@@ -1,0 +1,43 @@
+
+    #bucket{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+       
+      }
+   #poster{
+     height: 600px;
+     width: 400px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     margin: auto;
+     border-radius: 15px;
+     margin-top: 30px;
+     
+   }
+   #pic{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     height: 75%;
+     width: 100%;
+   }
+   #confirm_checkout{
+     height: 35px;
+     width: 70px;
+     background-color: orange;
+     border: none;
+     border-radius: 5px;
+     margin-top: -20px;
+     
+   }
+   #remove_coffee{
+     height: 35px;
+     width: 70px;
+     background-color: orange;
+     border: none;
+     border-radius: 5px;
+     margin-left: 10px;
+     margin-top: -20px;
+   }
+  

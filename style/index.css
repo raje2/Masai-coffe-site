@@ -1,0 +1,57 @@
+
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      #navbar{
+        height: 100px;
+        width: 100%;
+        background-color: orange;
+        display: flex;
+        justify-content: right;
+        gap: 20px;
+      }
+      #navbar>div{
+        height: 35px;
+        width: 70px;
+        background-color: black;
+        color: white;
+        margin-top: 20px;
+        border-radius: 7px;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        margin-right: 5px;
+        text-align: center;
+        cursor: pointer;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 25px;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+       
+      }
+   #menu{
+     height: 500px;
+     width: 400px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     margin: auto;
+     border-radius: 15px;
+     margin-top: 30px;
+   }
+   #pic{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     height: 75%;
+     width: 100%;
+   }
+   #add_to_bucket{
+     height: 35px;
+     width: 70px;
+     background-color: orange;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+   }
